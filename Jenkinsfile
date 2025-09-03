@@ -1,5 +1,5 @@
 //Jenkins pipeline script to use the shared library and deploy VM in GCP.
-@Library('jenkins-sharedlibs@main') _
+@Library('jenkins-sharedlibs') _
 
 pipeline {
     agent any
